@@ -380,6 +380,10 @@ footer .credit p {
   .menu .row .menu-card .menu-card-price {
     font-size: 1.5rem;
   }
+
+  .menu p {
+    font-size: 1.5rem;
+  }
   .kontak .row {
     flex-wrap: wrap;
   }
@@ -390,6 +394,10 @@ footer .credit p {
 
   .kontak .row form {
     padding-top: 0;
+  }
+
+  .kontak p {
+    font-size: 1.5rem;
   }
 }
 
