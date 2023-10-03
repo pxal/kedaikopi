@@ -207,12 +207,11 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 60%;
   position: relative;
-
   margin: auto;
   margin-top: 5rem;
-  border: 10px solid white;
+  border: 5px solid white;
 }
 
 /* Hide the images by default */
@@ -220,6 +219,20 @@ body {
   display: none;
 }
 
+.overlay {
+  position: absolute;
+  font-size: 2rem;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slideshow-container:hover .overlay {
+  opacity: 1;
+}
 /* Next & previous buttons */
 .prev,
 .next {
@@ -541,6 +554,11 @@ footer .credit p {
   .popup {
     display: none;
   }
+  .overlay {
+  
+  font-size: 1rem;
+
+
 }
 
 /* HP */
