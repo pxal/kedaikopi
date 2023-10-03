@@ -150,12 +150,14 @@ body {
 
 .about,
 .menu,
+.partner,
 .kontak {
   padding: 0rem 7% 0rem;
 }
 
 .about h2,
 .menu h2,
+.partner h2,
 .kontak h2 {
   text-align: center;
   font-size: 2.6rem;
@@ -165,6 +167,7 @@ body {
 
 .about h2 span,
 .menu h2 span,
+.partner h2 span,
 .kontak h2 span {
   color: var(--primary);
 }
@@ -202,11 +205,13 @@ body {
 /* menu section */
 
 .menu h2,
+.partner h2,
 .kontak h2 {
   margin-bottom: -3rem;
 }
 
 .menu p,
+.partner p,
 .kontak p {
   text-align: center;
   max-width: 30rem;
@@ -223,6 +228,14 @@ body {
   justify-content: center;
 }
 
+.partner .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
 .menu .row .menu-card {
   text-align: center;
   padding-bottom: 4rem;
@@ -232,6 +245,16 @@ body {
   border-radius: 50%;
   width: 300px;
   height: 300px;
+}
+
+.partner .row .partner-card img {
+  width: 400px;
+  height: 100px;
+}
+
+.partner .row .partner-card img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .menu .row .menu-card img:hover {
@@ -343,7 +366,7 @@ footer .credit p {
 /* laptop */
 @media (max-width: 1366px) {
   html {
-    font-size: 75%;
+    font-size: 80%;
   }
 }
 
@@ -387,11 +410,20 @@ footer .credit p {
     transform: scaleX(0.2);
   }
   .menu .row .menu-card .menu-card-price {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+  .menu .row .menu-card .menu-card-co {
+    font-size: 1.7rem;
   }
   .menu p {
     font-size: 1.5rem;
   }
+
+  .partner .row .partner-card img {
+    width: 300px;
+    height: 100px;
+  }
+
   .kontak .row {
     flex-wrap: wrap;
   }
