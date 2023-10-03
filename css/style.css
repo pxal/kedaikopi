@@ -279,6 +279,22 @@ body {
   }
 }
 
+.popup {
+  position: absolute;
+  margin-left: 75%;
+  margin-top: -7%;
+}
+
+.popup .popup-image img {
+  width: 250px;
+}
+
+.popup-image img:hover {
+  transition: 1s;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
 /* menu section */
 
 .menu h2,
@@ -520,6 +536,9 @@ footer .credit p {
   .kontak p {
     font-size: 1.5rem;
   }
+  .popup {
+    display: none;
+  }
 }
 
 /* HP */
@@ -536,5 +555,9 @@ footer .credit p {
     height: 24rem;
     object-fit: cover;
     object-position: center;
+  }
+
+  .popup {
+    display: none;
   }
 }
