@@ -555,10 +555,11 @@ footer .credit p {
     display: none;
   }
   .overlay {
-  
-  font-size: 1rem;
-
-
+    font-size: 1rem;
+  }
+  .slideshow-container {
+    max-width: 80%;
+  }
 }
 
 /* HP */
