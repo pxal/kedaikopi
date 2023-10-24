@@ -311,6 +311,49 @@ body {
   transform: rotate(30deg);
 }
 
+/* Social section */
+
+.social h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.social .social-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social .social-button .icon a {
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 1px 3px 3px rgb(240, 236, 236);
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #d41354;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
 /* menu section */
 
 .menu h2,
