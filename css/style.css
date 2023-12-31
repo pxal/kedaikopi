@@ -146,6 +146,27 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 1);
 }
 
+.hero .content .cta1 {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--primary);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 1);
+}
+
+.hero .content .cta:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero .content .cta1:hover {
+  background-color: white;
+  color: black;
+}
+
 /* About Section */
 
 .about,
@@ -349,8 +370,6 @@ body {
   justify-content: center;
 }
 
-.social .social-button .icon a {
-}
 .fa {
   padding: 10px;
   font-size: 30px;
